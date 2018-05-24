@@ -1,13 +1,25 @@
+html, body {
+    margin: 0;
+	padding: 0;
+		    }
 body {
-    margin: 60px auto;
-    width: 70%;
-}
+	font-family: 'Roboto', sans-serif;
+	fontweight: 20;
+	}
+
 nav ul, footer ul {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #333
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -15,9 +27,16 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #999;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
+
 a:hover {
     text-decoration: underline;
+    background: #fff;
+    color: black;
 }
 h1 {
     font-size: 3em;
@@ -28,9 +47,20 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
 footer {
-    border-top: 1px solid #d5d5d5;
+    background: #000;
+    height: 80px;
     font-size: .8em;
+    padding-bottom: 50px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
 }
 
 ul.posts { 
