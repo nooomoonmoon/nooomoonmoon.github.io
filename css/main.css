@@ -24,7 +24,7 @@
 
 				.navbar {
 					overflow: hidden;
-					background-color: #333;
+					background-color: #000;
 					position: fixed;
 					top: 0;
 					width: 100%;
@@ -52,14 +52,15 @@
 				}
 				
 				.main {
-					padding: 34px;
-					margin-top: 70px;
+					padding: 25%;
+					margin-top: 25%;
 				}
 				
 				.footer { 
+					position: fixed;
 					background: #000;
-					height: 80px; 
-					padding-bottom: 50px;
+					height: 20%; 
+					padding-bottom: 30%;
 				}
 
 				.footer p { 
